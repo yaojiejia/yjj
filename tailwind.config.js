@@ -25,6 +25,10 @@ module.exports = {
         center: true,
         padding: '1rem',
       },
+      zIndex: {
+        '100': '100',
+        '600': '600',
+      },
     },
   },
   plugins: [],

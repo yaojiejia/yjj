@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <Navbar />
       <div className="flex-1 container">
-        <div className="space-y-5">
+        <div className="space-y-8 py-8">
           <Hero />
           <Experience />
           <Blog />
