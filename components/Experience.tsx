@@ -75,7 +75,7 @@ export default function Experience() {
               <div className="flex items-center gap-x-1 flex-wrap">
                 <h3 className="text-lg font-semibold">{exp.title}</h3>
                 <span className="text-lg font-semibold mx-1">at</span>
-                <p className="text-lg font-semibold">@{exp.company}</p>
+                <p className="text-lg font-semibold">{exp.company}</p>
               </div>
               <p className="text-sm flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-map-pin size-3" aria-hidden="true">
