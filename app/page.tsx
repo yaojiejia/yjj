@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Experience from '@/components/Experience'
+import RecommendedWebsites from '@/components/RecommendedWebsites'
 import Blog from '@/components/Blog'
 import Footer from '@/components/Footer'
 
@@ -12,6 +13,7 @@ export default function Home() {
         <div className="space-y-8 py-8">
           <Hero />
           <Experience />
+          <RecommendedWebsites />
           <Blog />
         </div>
       </div>
