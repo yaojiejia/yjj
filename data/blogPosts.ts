@@ -24,6 +24,14 @@ export const blogPosts: BlogPost[] = [
     tags: ['Open Source', 'Career Development'],
     slug: 'getting-started-with-gsoc',
   },
+  {
+    id: 3,
+    date: new Date().toISOString().split('T')[0],
+    title: 'Viewstamped Replication Revisited: A Deep Dive into Distributed Consensus',
+    description: 'An exploration of the Viewstamped Replication protocol, covering crash fault tolerance, view changes, recovery mechanisms, and practical optimizations for building reliable distributed systems.',
+    tags: ['Distributed Systems', 'Backend Development'],
+    slug: 'viewstamped-replication-revisited',
+  },
 ]
 
 export function formatDate(dateString: string): string {
