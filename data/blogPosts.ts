@@ -32,6 +32,14 @@ export const blogPosts: BlogPost[] = [
     tags: ['Distributed Systems', 'Backend Development'],
     slug: 'viewstamped-replication-revisited',
   },
+  {
+    id: 4,
+    date: new Date().toISOString().split('T')[0],
+    title: 'Ionia: High-Performance Distributed Write-Optimized Key-Value Stores',
+    description: 'Exploring the Ionia protocol that achieves high throughput and low latency in distributed WO-KV stores by decoupling scalability from locality, enabling parallel execution and scalable reads.',
+    tags: ['Distributed Systems', 'Backend Development', 'Storage Systems'],
+    slug: 'ionia-distributed-wo-kv',
+  },
 ]
 
 export function formatDate(dateString: string): string {
