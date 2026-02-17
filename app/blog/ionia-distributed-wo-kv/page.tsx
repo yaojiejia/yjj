@@ -212,7 +212,7 @@ leaf leaf leaf leaf ...`}
                     </ul>
                     <p className="mt-3 mb-2"><strong>Client-Side Consistency Check:</strong></p>
                     <ul className="list-disc pl-6 space-y-2">
-                      <li><strong>Logic:</strong> <code className="bg-muted px-1 rounded">if Follower_Applied_Index >= Key_Modified_Index</code>: <strong>Data is Fresh.</strong></li>
+                      <li><strong>Logic:</strong> <code className="bg-muted px-1 rounded">if Follower_Applied_Index {'>='} Key_Modified_Index</code>: <strong>Data is Fresh.</strong></li>
                       <li><strong>Else:</strong> Data is stale; retry at leader.</li>
                     </ul>
                   </div>

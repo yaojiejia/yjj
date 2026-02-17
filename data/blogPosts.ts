@@ -40,6 +40,14 @@ export const blogPosts: BlogPost[] = [
     tags: ['Distributed Systems', 'Backend Development', 'Storage Systems'],
     slug: 'ionia-distributed-wo-kv',
   },
+  {
+    id: 5,
+    date: new Date().toISOString().split('T')[0],
+    title: 'Paxos Made Simple: Understanding the Minimal Consensus Algorithm',
+    description: 'A deep dive into Leslie Lamport\'s Paxos algorithm, exploring why it exists, how it achieves consensus in asynchronous networks, and how it scales to implement replicated state machines.',
+    tags: ['Distributed Systems', 'Backend Development'],
+    slug: 'paxos-made-simple',
+  },
 ]
 
 export function formatDate(dateString: string): string {
