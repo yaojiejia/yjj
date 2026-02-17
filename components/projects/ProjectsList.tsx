@@ -34,6 +34,16 @@ const projects: Project[] = [
       github: 'https://github.com/yaojiejia/fastaws',
     },
   },
+  {
+    id: 3,
+    title: 'TOCO - Token & Cost Estimator',
+    subtitle: 'VS Code Extension for LLM API Cost Estimation',
+    description: 'A VS Code extension that provides instant token usage and cost estimates for LLM API calls directly in your editor. Understand costs before deployment with static analysis of OpenAI and Claude API calls.',
+    technologies: ['TypeScript', 'Python', 'VS Code Extension', 'LLM', 'OpenAI', 'Claude', 'AST Parsing'],
+    links: {
+      github: 'https://github.com/yaojiejia/toco',
+    },
+  },
 ]
 
 export default function ProjectsList() {
